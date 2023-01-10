@@ -1,15 +1,18 @@
-import logo from './logo.svg';
+
 import './App.css';
 import React from 'react';
-const App=()=> {
+import Counter from './Counter';
+import ShowText from './ShowText';
+import Effect from './Effect';
+export default function App() {
+
+
   return (
     <React.Fragment>
-
-
-
-
+    {/* <Counter></Counter> */}
+    {/* <ShowText/> */}
+    <Effect/>
     </React.Fragment>
   );
 }
 
-export default App;
