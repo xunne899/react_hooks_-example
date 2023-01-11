@@ -4,6 +4,7 @@ import React from 'react';
 import Counter from './Counter';
 import ShowText from './ShowText';
 import Effect from './Effect';
+import ChangeInput from './ChangeInput';
 export default function App() {
 
 
@@ -12,6 +13,8 @@ export default function App() {
     {/* <Counter></Counter> */}
     {/* <ShowText/> */}
     <Effect/>
+    <ChangeInput/>
+  
     </React.Fragment>
   );
 }
